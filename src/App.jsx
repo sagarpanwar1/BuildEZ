@@ -4,9 +4,9 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import Dashboard from "./comp/pages/Dashboard";
-import LoginPage from "./comp/pages/LoginPage";
-import SignupPage from "./comp/pages/SignupPage";
+import Dashboard from "./comp/Pages/Dashboard";
+import LoginPage from "./comp/Pages/LoginPage";
+import SignupPage from "./comp/Pages/SignupPage";
 import AddCategory from "./comp/categories/Addcategories";
 // import EditCategory from "./comp/categories/EditCategory";
 import CategoryList from "./comp/categories/CategoryList";
