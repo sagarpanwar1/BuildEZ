@@ -1,7 +1,7 @@
 import React from "react";
 import { ChevronRight } from "lucide-react";
 import Footer from "./Footer";
-import ImageSlider from "./imageslider";
+import ImageSlider from "./ImageSlider";
 
 
 export default function HomePage() {
