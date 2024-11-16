@@ -3,7 +3,6 @@ import { ChevronRight } from "lucide-react";
 import Footer from "./Footer";
 import ImageSlider from "./ImageSlider";
 
-
 export default function HomePage() {
   return (
     <div className="font-sans text-gray-900">
@@ -42,8 +41,9 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative flex flex-col items-center justify-center h-full z-10">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 text-center">
-            Seamless Material 
-             <br/>with Components
+            Seamless Material
+            <br />
+            with Components
           </h1>
           <button className="px-8 py-3 bg-white text-black rounded-md">
             Connect us
@@ -51,8 +51,7 @@ export default function HomePage() {
         </div>
       </section>
 
-
-     {/* creating perfect section  */}
+      {/* creating perfect section  */}
       <>
         <ImageSlider />
         <div className="layout-container pt-3">
@@ -80,8 +79,7 @@ export default function HomePage() {
         </div>
       </>
 
-     {/* creating perfect section  */}
-
+      {/* creating perfect section  */}
 
       {/* Feature Products Section */}
       <section id="products" className="py-16 bg-gray-100 text-center m-3 p-5">
