@@ -2,6 +2,13 @@ import React from "react";
 import { ChevronRight } from "lucide-react";
 import Footer from "./Footer";
 import ImageSlider from "./ImageSlider";
+import logo from "../../images/logo.png";
+import banner from "../../images/banner.png";
+import delightServices from "../../images/delight-services.png";
+import frame from "../../images/Frame 51.png";
+import helmetBg from "../../images/helmet-bg.png";
+import highEnd from "../../images/high-end.png";
+import detailsImg from "../../images/details.png";
 
 export default function HomePage() {
   return (
@@ -10,7 +17,7 @@ export default function HomePage() {
       <header className="bg-white shadow-md fixed w-full top-0 z-50">
         <div className="flex items-center justify-between max-w-6xl mx-auto py-4 px-4">
           <div className="text-2xl font-bold text-orange-500">
-            <img src="/src/images/logo.png" alt="" />
+            <img src={logo} alt="" />
           </div>
           <nav className="hidden md:flex gap-8">
             <a href="#home" className="text-gray-700 hover:text-orange-500">
@@ -36,7 +43,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section
         className="relative w-full h-screen bg-cover bg-center text-white mt-16"
-        style={{ backgroundImage: "url('/src/images/banner.png')" }}
+        style={{ backgroundImage: "url(" + banner + ")" }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative flex flex-col items-center justify-center h-full z-10">
@@ -86,7 +93,7 @@ export default function HomePage() {
         {/* <h2 className="text-3xl font-semibold mb-8">Enjoy our feature products</h2> */}
         <section
           className="relative w-full h-screen bg-cover bg-center text-white mt-16 p-3"
-          style={{ backgroundImage: "url('/src/images/Frame 51.png')" }}
+          style={{ backgroundImage: "url(" + frame + ")" }}
         ></section>
       </section>
 
@@ -119,7 +126,7 @@ export default function HomePage() {
 
           <div class="w-1/2">
             <img
-              src="/src/images/delight-services.png"
+              src={delightServices}
               alt="Construction Image"
               class="w-full h-full object-cover"
             />
@@ -130,7 +137,7 @@ export default function HomePage() {
       {/* <div class="flex flex-col md:flex-row items-center md:items-start p-4 md:p-8"> */}
       <div class="w-full p-3">
         <img
-          src="/src/images/details.png"
+          src={detailsImg}
           alt="Construction site"
           class="w-full h-full object-cover rounded-md shadow-lg"
         />
@@ -140,7 +147,7 @@ export default function HomePage() {
       <div className="relative h-screen">
         {/* <!-- Background image --> */}
         <img
-          src="/src/images/helmet-bg.png"
+          src={helmetBg}
           alt="City construction scene"
           class="w-full h-full object-cover"
         />
@@ -233,7 +240,7 @@ export default function HomePage() {
         {/* Background Image */}
         <div className="absolute m-5 inset-0">
           <img
-            src="/src/images/high-end.png"
+            src={highEnd}
             alt="City skyline with modern buildings"
             className="w-full h-full object-cover"
           />
