@@ -9,6 +9,9 @@ import frame from "../../images/Frame 51.png";
 import helmetBg from "../../images/helmet-bg.png";
 import highEnd from "../../images/high-end.png";
 import detailsImg from "../../images/details.png";
+import helmet from "../../images/helmet.png"
+import article from "../../images/article.png"
+
 
 export default function HomePage() {
   return (
@@ -155,8 +158,8 @@ export default function HomePage() {
         {/* <!-- Centered overlay image --> */}
         <div className="absolute inset-0 flex items-center justify-center">
           <img
-            src="/src/images/helmet.png"
-            alt="Hard hat"
+            src={helmet} 
+             alt="Hard hat"
             class="w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/4 object-contain shadow-lg rounded-md"
           />
         </div>
@@ -214,7 +217,7 @@ export default function HomePage() {
             {/* Right Column - Image */}
             <div className="relative h-[400px] md:h-auto">
               <img
-                src="/src/images/article.png"
+                src={article}
                 alt="Modern interior design"
                 className="w-full h-full object-cover"
               />
